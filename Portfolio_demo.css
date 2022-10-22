@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&display=swap');
+/* css variables */
+:root{
+    --primary-color:blue;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+.container{
+    padding-left:1rem; 
+    padding-right:1rem;
+}
+.container-centre{
+    max-width:600px;
+    margin:auto;
+}
+hr{
+    margin:2rem 0rem;
+}
+
+.link{
+    text-decoration: none;
+    padding:0.5rem 1rem;
+   
+    
+}
+.primary-link{
+    border-radius: 0.5rem;
+    color:white;
+    background-color:var(--primary-color)
+}
+.secondary-link{
+    text-decoration: none;
+    padding:0.5rem 1rem;
+    border-radius: 0.5rem;
+    color:white;
+    background-color:var(--primary-color)
+}
+.non-bullet{
+    list-style:none;
+}
+.order-list{
+    display: inline;
+    padding:0rem 0.5rem;
+
+
+}
+.navigation .link{
+    color: white;
+}
+.navigation{
+    background-color:var(--primary-color);
+    color: white;
+    padding:1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .link{
+    color: white;
+    text-decoration: none;
+    padding:0.5rem 1rem;
+}
+.navigation .nav-pills{
+    text-decoration: none;
+    padding:0.5rem 1rem;
+}
+.navigation .list-non-bullet .list-item-inline{
+    display: inline;
+}
+.navigation .list-non-bullet{
+    text-decoration: none;
+}
+.navigation .link-active{
+    font-weight: bold;
+
+}
+.hero{
+    padding:2rem;
+   
+
+}
+.hero .hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    color: grey;
+    padding-top:1rem
+
+}
+footer{
+    background-color:grey;
+    padding:2rem 0rem ;
+    text-align: centre;
+    color: white;
+
+}
+.footer .link{
+    color: white;
+}
